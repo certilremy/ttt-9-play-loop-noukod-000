@@ -42,7 +42,7 @@ def play(board)
 
 until valid_move =9
 
-  turn (board)
+  turn (board,index)
   valid_move +=1
 end
 
