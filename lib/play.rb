@@ -38,12 +38,12 @@ end
 # Define your play method below
 
 def play(board)
-  valid_move= 0
+  move[index]= 0
 
-until valid_move = 9
+until move[index] = 9
 
   turn (board)
-  valid_move +=1
+move[index] +=1
 end
 
 end
